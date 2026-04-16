@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Mattéo RAZAKARIJAONA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #7639f9 0%, #f49835 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border: 5px solid white;
+        }
+        .skill-bar {
+            height: 8px;
+        }
+        .social-links a {
+            color: #6c757d;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #667eea;
+        }
+        .white {
+            color:white;
+        }
+    </style>
+</head>
+<body style="display: flex; flex-direction: column; color: white; background-color: #3c3c49">
+
+<nav class="navbar navbar-expand-lg navbar-grey-800 bg-dark shadow-sm sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold white" href="home">Mattéo RAZAKARIJAONA</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link white"  href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white" href="tableau-e5">Épreuve E5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white" href="home#contact">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white" href="projects.blade.php">Projets</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section text-center">
+        <div class="container">
+            <img src="" alt="Profile" class="profile-img rounded-circle mb-4">
+            <h1 class="display-4 fw-bold mb-3 white">Bonjour! Je suis Mattéo.</h1>
+            <p class="lead mb-4">Étudiant en BTS - Services Informatiques aux Organisations (SIO)<br>Option B : Solutions logicielles et applications métiers (SLAM)</p>
+        </div>
+    </section>
+
+    <section class="py-5" style="color: white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4" style="color: white">À propos de moi</h2>
+                    <p class="lead mb-4">
+                        Actuellement un étudiant dans sa deuxième année de BTS SIO en option SLAM dans le Lycée ORT de Lyon, j'envisage à approfondir mes compétences dans une Licence Informatique, ou une Licence Pro - métier de l'informatique.
+                    </p>
+                    <p class="lead mb-4">
+                        Ici est donc mon Portfolio, mis à jour au fur et à mesure de mon progrès en programmation.
+                    </p>
+
+                    <div class="projects mb-4">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-3"><b>Langages pratiqués</b></h3>
+                    <div class="mb-3">
+                        <p><label class="form-label">Java</label></p>
+                        <div class="progress skill-bar mb-2">
+                            <div class="progress-bar" style="width: 55%; color:#7639f9"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">PHP</label>
+                        <div class="progress skill-bar mb-2">
+                            <div class="progress-bar" style="width: 40%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3" >
+                        <label class="form-label">HTML/CSS</label>
+                        <div class="progress skill-bar mb-2">
+                            <div class="progress-bar" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3" >
+                        <label class="form-label">SQL/PLPGSQL</label>
+                        <div class="progress skill-bar mb-2">
+                            <div class="progress-bar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="software">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-3"><b>Logiciels et plateformes utilisés</b></h2>
+                    <div class="container-flex JetBrains">
+                        <h4><i>Suite JetBrains</i></h4>
+                        <img src="IntelliJ_logo-simple.png" style="width:128px; height:128px" alt="IntelliJ Logo"> <img src="PHPStorm_logo-simple.png" alt="PHPStorm Logo" style="width:132px; height:128px"><br>
+                        <p class="badge bg-secondary text-wrap">*Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-5 fw-bold mb-4">Mes contacts</h2>
+                    <p class="lead mb-5"></p>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <h5><i class="fas fa-envelope fa-2x text-light mb-3">Email</i></h5>
+                            <h6 class="badge bg-secondary text-wrap">matteo.rzak@gmail.com</h6>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <h5><i class="fas fa-phone fa-2x text-light mb-3">Mobile</i></h5>
+                            <h6 class="badge bg-secondary text-wrap">+33 6 95 47 42 47</h6>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <h5 class="social-links mb-4 container-flex"><i class="fas fa-map-marker-alt fa-2x text-light mb-3">Réseaux sociaux</i></h5>
+                            <div style="text-align: center;">
+                                <a href="https://github.com/TorManiak"><i class="fab fa-github"><img src="github-mark-white.png" style="width:58px; height:57px" alt="Github_link"></i></a>
+                                <a href="https://www.linkedin.com/in/matt%C3%A9o-razakarijaona-8bb45a280/"><i class="fab fa-linkedin"><img src="LinkedIn_logo-simple.png" style="width:60px; height:59px" alt="LinkedIn_link"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        Copyright 2026 ©
+        <span><strong>Mattéo RAZAKARIJAONA</strong></span>
+    </div>
+</footer>
+
+</body>
+</html>
