@@ -56,37 +56,99 @@
         </div>
     </div>
     <div class="container">
-        <!-- Section contenu E5 : tableau, descriptions, documents -->
         <div class="row">
             <div class="col-12">
-                <!-- Insérer ici le tableau de synthèse, les fiches descriptives, etc. -->
+                <!-- Style ajusté pour correspondre au thème général -->
                 <style type="text/css">
-                    .tg  {border-collapse:collapse;border-spacing:0;}
-                    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-                        overflow:hidden;padding:10px 5px;word-break:normal;}
-                    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-                        font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-                    .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-                    .tg .tg-6ic8{border-color:inherit;font-weight:bold;text-align:right;vertical-align:top}
-                    .tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-                    .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-                    .tg .tg-rvyq{border-color:inherit;font-style:italic;font-weight:bold;text-align:center;vertical-align:top}
-                    .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+                    .tg {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        width: 100%;
+                        background-color: rgba(255, 255, 255, 0.03);
+                        border-radius: 12px;
+                        overflow: hidden;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+                    }
+                    .tg th {
+                        background: grey;
+                        color: white;
+                        font-weight: 600;
+                        font-size: 0.9rem;
+                        text-transform: uppercase;
+                        letter-spacing: 0.5px;
+                        border: 1px solid #4a4a5a;
+                        padding: 12px 8px;
+                        vertical-align: middle;
+                    }
+                    .tg td {
+                        border: 1px solid #4a4a5a;
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        padding: 10px 8px;
+                        word-break: normal;
+                        color: #f0f0f0;
+                        background-color: rgba(60, 60, 73, 0.7);
+                        vertical-align: top;
+                    }
+                    .tg .tg-c3ow {
+                        text-align: center;
+                        vertical-align: middle;
+                        font-weight: 500;
+                    }
+                    .tg .tg-6ic8,
+                    .tg .tg-7btt,
+                    .tg .tg-fymr,
+                    .tg .tg-rvyq {
+                        font-weight: 600;
+                        color: white;
+                    }
+                    .tg .tg-6ic8 { text-align: right; }
+                    .tg .tg-7btt { text-align: center; }
+                    .tg .tg-fymr { text-align: left; }
+                    .tg .tg-rvyq {
+                        text-align: center;
+                        font-style: italic;
+                        background-color: rgba(118, 57, 249, 0.2);
+                    }
+                    .tg .tg-0pky {
+                        text-align: left;
+                        vertical-align: top;
+                    }
+                    /* Survol des lignes pour une meilleure lisibilité */
+                    .tg tbody tr:hover td {
+                        background-color: rgba(244, 152, 53, 0.15);
+                        transition: background-color 0.2s ease;
+                    }
+                    /* Alternance légère des lignes (optionnel, compatible avec le hover) */
+                    .tg tbody tr:nth-child(even) td {
+                        background-color: rgba(60, 60, 73, 0.9);
+                    }
+                    .tg tbody tr:nth-child(even):hover td {
+                        background-color: rgba(244, 152, 53, 0.2);
+                    }
+                    /* Assure que les cellules d'en-tête de regroupement restent lisibles */
+                    .tg .tg-rvyq[colspan] {
+                        background-color: rgba(118, 57, 249, 0.3);
+                    }
                 </style>
-                <table class="tg"><thead>
-                <tr>
-                    <th class="tg-6ic8">Compétences mises en oeuvre</th>
-                    <th class="tg-7btt">Période (sous la forme du JJ/MM/AA au JJ/MM/AA)</th>
-                    <th class="tg-7btt">Gérer le patrimoine informatique</th>
-                    <th class="tg-7btt">Répondre aux incidents et aux demandes d'assistance et d'évolution</th>
-                    <th class="tg-7btt">Développer la présence en ligne de l'organisation</th>
-                    <th class="tg-7btt">Travailler en mode projet</th>
-                    <th class="tg-7btt">Mettre à disposition des utilisateurs un service informatique</th>
-                    <th class="tg-7btt">Organiser son développement professionnel</th>
-                </tr></thead>
+
+                <table class="tg">
+                    <!-- Le contenu du tableau reste inchangé -->
+                    <thead>
+                    <tr>
+                        <th class="tg-6ic8">Compétences mises en oeuvre</th>
+                        <th class="tg-7btt">Période (sous la forme du JJ/MM/AA au JJ/MM/AA)</th>
+                        <th class="tg-7btt">Gérer le patrimoine informatique</th>
+                        <th class="tg-7btt">Répondre aux incidents et aux demandes d'assistance et d'évolution</th>
+                        <th class="tg-7btt">Développer la présence en ligne de l'organisation</th>
+                        <th class="tg-7btt">Travailler en mode projet</th>
+                        <th class="tg-7btt">Mettre à disposition des utilisateurs un service informatique</th>
+                        <th class="tg-7btt">Organiser son développement professionnel</th>
+                    </tr>
+                    </thead>
                     <tbody>
                     <tr>
-                        <td class="tg-fymr">Réalisations professionnelles  (intitulé et liste des documents et productions associés)</td>
+                        <td class="tg-fymr" style="text-transform: uppercase;background: grey">Réalisations professionnelles  (intitulé et liste des documents et productions associés)</td>
                         <td class="tg-rvyq" colspan="7">Réalisation en cours de formation</td>
                     </tr>
                     <tr>
@@ -227,7 +289,8 @@
                         <td class="tg-c3ow">x</td>
                         <td class="tg-c3ow"></td>
                     </tr>
-                    </tbody></table>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
