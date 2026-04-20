@@ -5,3 +5,22 @@
 .nav-link:hover {
 	color: white !important;
 }
+
+.logo {
+    width:128px;
+    height:128px;
+}
+
+.logo-java {
+    width:96px;
+    height:128px;
+}
+
+.logo-php {
+    width: 161px;
+    height: 86px;
+}
+
+img {
+    vertical-align: middle;
+}

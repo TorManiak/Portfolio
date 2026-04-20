@@ -42,16 +42,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #cecece" href="home">Home</a>
+                    <a class="nav-link" style="color: #cecece" href="epreuve-e5.html">Épreuve E5</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: #cecece" href="tableau-e5">Épreuve E5</a>
+                    <a class="nav-link" style="color: #cecece" href="#contact">Contacts</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #cecece" href="home#contact">Contacts</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #cecece" href="projects.blade.php">Projets</a>
                 </li>
             </ul>
         </div>
@@ -60,7 +55,6 @@
 
 <section class="hero-section text-center">
         <div class="container">
-            <img src="" alt="Profile" class="profile-img rounded-circle mb-4">
             <h1 class="display-4 fw-bold mb-3 white">Bonjour! Je suis Mattéo.</h1>
             <p class="lead mb-4">Étudiant en BTS - Services Informatiques aux Organisations (SIO)<br>Option B : Solutions logicielles et applications métiers (SLAM)</p>
         </div>
@@ -72,7 +66,7 @@
                 <div class="col-lg-6">
                     <h2 class="display-5 fw-bold mb-4" style="color: white">À propos de moi</h2>
                     <p class="lead mb-4">
-                        Actuellement un étudiant dans sa deuxième année de BTS SIO en option SLAM dans le Lycée ORT de Lyon, j'envisage à approfondir mes compétences dans une Licence Informatique, ou une Licence Pro - métier de l'informatique.
+                        Actuellement un étudiant dans sa deuxième année de BTS SIO en option SLAM dans le Lycée ORT de Lyon, j'envisage à approfondir mes compétences jusqu'au Bac+5.
                     </p>
 
                     <div class="projects mb-4">
@@ -81,29 +75,21 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <h3 class="mb-3"><b>Langages pratiqués</b></h3>
-                    <div class="mb-3">
-                        <p><label class="form-label">Java</label></p>
-                        <div class="progress skill-bar mb-2">
-                            <div class="progress-bar" style="width: 55%; color:#7639f9"></div>
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">PHP</label>
-                        <div class="progress skill-bar mb-2">
-                            <div class="progress-bar" style="width: 40%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-3" >
-                        <label class="form-label">HTML/CSS</label>
-                        <div class="progress skill-bar mb-2">
-                            <div class="progress-bar" style="width: 60%"></div>
-                        </div>
-                    </div>
-                    <div class="mb-3" >
-                        <label class="form-label">SQL/PLPGSQL</label>
-                        <div class="progress skill-bar mb-2">
-                            <div class="progress-bar" style="width: 50%"></div>
+                    <div class="container-flex">
+                        <div class="row align-items-center">
+                            <h3 class="mb-3"><b>Langages pratiqués</b></h3>
+                            <div class="col-sm mb-3">
+                                <img class="logo-java img-fluid" src="public/images/Java_logo-simple.png" alt="Java">
+                            </div>
+                            <div class="col-sm mb-3">
+                                <img class="logo-php img-fluid" src="public/images/php_logo.png" alt="PHP">
+                            </div>
+                            <div class="col-sm mb-3">
+                                <img class="logo img-fluid" src="public/images/mysql-icon.png" alt="MySQL">
+                            </div>
+                            <div class="col-sm mb-3">
+                                <img class="logo img-fluid" src="public/images/postgre-icon.png" alt="PostgreSQL">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,12 +100,29 @@
     <section id="software">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg">
                     <h2 class="mb-3"><b>Logiciels et plateformes utilisés</b></h2>
-                    <div class="container-flex JetBrains">
-                        <h4><i>Suite JetBrains</i></h4>
-                        <img src="public/images/IntelliJ_logo-simple.png" style="width:128px; height:128px" alt="IntelliJ Logo"> <img src="public/images/PHPStorm_logo-simple.png" alt="PHPStorm Logo" style="width:132px; height:128px"><br>
-                        <p class="badge bg-secondary text-wrap">*Lorem Ipsum</p>
+                    <div class="row text-center align-items-start">
+                        <div class="col-md mb-4 JetBrains">
+                            <h4><i>Suite JetBrains</i></h4>
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <img src="public/images/IntelliJ_logo-simple.png" class="logo" alt="IntelliJ">
+                                <img class="logo" src="public/images/PHPStorm_logo-simple.png" alt="PHPStorm">
+                            </div>
+                            <p class="badge bg-secondary text-wrap mt-2 mb-0">IntelliJ(Java) et PHPStorm(PHP)</p>
+                        </div>
+                        <div class="col-md mb-4 VSCode">
+                            <h4><i>Virtual Studio Code</i></h4>
+                            <img src="public/images/vscode-icon.png" class="logo" alt="VSCode">
+                        </div>
+                        <div class="col-md mb-4 DBeaver">
+                            <h4><i>DBeaver</i></h4>
+                            <img src="public/images/dbeaver-icon.png" class="logo img-fluid" alt="DBeaver">
+                        </div>
+                        <div class="col-md mb-4 PowerShell">
+                            <h4><i>Windows PowerShell</i></h4>
+                            <img src="public/images/powershell-icon.png" class="logo img-fluid" alt="PowerShell">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,7 +130,7 @@
     </section>
 
 
-    <section id="contact" class="py-5">
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
